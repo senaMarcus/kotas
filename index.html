@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <title>Kotas</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="flex">
+          <div>
+            <a href="#">
+              <img class="logo" src="img/logo-kotas.svg" alt="" />
+            </a>
+          </div>
+          <div class="search-bar">
+            <img class="icon" src="./img/Ellipse.png" alt="" />
+            <input
+              type="text"
+              id="search"
+              name="search"
+              placeholder=" O que você procura?"
+            />
+          </div>
+        </div>
+        <div class="flex">
+          <div>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item menu-bar" id="grupos">
+                <a
+                  href="nav-link"
+                  href="https://www.kotas.com.br"
+                  style="text-decoration: none"
+                >
+                  <div class="flex">
+                    <img src="img/mais.svg" alt="" />
+                    <h4>Criar grupo</h4>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item menu-bar" id="meu-grupo">
+                <a
+                  href="nav-link"
+                  href="https://www.kotas.com.br"
+                  style="text-decoration: none"
+                >
+                  <div class="flex">
+                    <img src="img/Cube.svg" alt="" />
+                    <h4>Meus Grupos</h4>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex">
+            <button>
+              <a href="">
+                <img id="notificacao" src="img/Notificacao.svg" alt="" />
+              </a>
+            </button>
+            <a href="" class="photo">
+              <img id="perfil" src="img/perfil.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="center">
+      <div class="flex">
+        <div class="cardsContainer">
+          <div class="cardSpotify first">
+            <div class="flexColumn">
+              <a
+                class="spotPlan"
+                href="https://www.spotify.com/br/family/"
+                target="blank"
+              >
+                <img src="img/spotify.svg" alt="" />
+                <h2>Spotify Family</h2>
+              </a>
+            </div>
+            <span class="subTitle">
+              Grupo destinado a pessoas que querem ver o melhor da Netflix em 4K
+              a um preço acessível.
+            </span>
+            <div class="flexColumn">
+              <button class="customBtn">Customizado</button>
+              <div class="flexSpace">
+                <div class="flexColumn">
+                  <span class="vagasNum">2 / 5</span>
+                  <span class="vagas">vagas disponiveis</span>
+                </div>
+                <div class="pipeline"></div>
+                <div class="flexColumn">
+                  <div class="flexRow">
+                    <span class="reais">R$</span>
+                    <span class="valor">7,90</span>
+                  </div>
+                  <span class="mes">por mês</span>
+                </div>
+                <div class="pipeline"></div>
+                <div class="flexColumn">
+                  <img class="img-link" src="img/link.svg" alt="img-link" />
+                  <span class="acess">acesso por convite</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cardSpotify second">
+            <div class="flexColumn head-adm">
+              <h3>Administrador</h3>
+              <div class="linha"></div>
+            </div>
+            <div class="admProfile">
+              <div class="flexColumn">
+                <img class="perfilImg" src="img/adm-pic.svg" alt="" />
+                <span class="joaoCouves">João das Couves</span>
+              </div>
+            </div>
+            <div>
+              <div class="flexColumn">
+                <div class="flexSpace trophys">
+                  <img class="trophyImage" src="img/trofeu.svg" alt="" />
+                  <img class="trophyImage" src="img/trofeu.svg" alt="" />
+                  <img class="trophyImage" src="img/trofeu.svg" alt="" />
+                </div>
+              </div>
+              <div class="flexColumn">
+                <span class="selo">selos disponíveis</span>
+              </div>
+            </div>
+          </div>
+          <div class="cardSpotify third">
+            <div class="flexSpace">
+              <span class="about">Sobre o Grupo</span>
+              <span class="plus">+</span>
+            </div>
+          </div>
+          <div class="cardSpotify fourth">
+            <div class="flexColumn">
+              <span class="users">Quem já faz parte</span>
+              <div class="linha"></div>
+            </div>
+            <div class="flexColumn">
+              <div class="flexSpace usersImg">
+                <img class="userPic" src="img/maria.svg" alt="" />
+                <img class="userPic" src="img/filipe.svg" alt="" />
+                <img class="userPic" src="img/ana.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="cardSpotify fifth">
+            <div class="flex duvidas">
+              <span class="duvidas">Dúvidas frequentes</span>
+            </div>
+            <div class="linha"></div>
+            <div class="question bottom">
+              <span class="quest">Quais são as formas de pagamento?</span>
+              <p class="arch">></p>
+            </div>
+            <div class="linha"></div>
+            <div class="question bottom">
+              <span class="quest">O que é caução?</span>
+              <p class="arch">></p>
+            </div>
+            <div class="linha"></div>
+            <div class="question bottom">
+              <div>
+                <span class="quest">Quando terei acesso ao serviço?</span>
+              </div>
+              <p class="arch">></p>
+            </div>
+            <div class="linha"></div>
+            <div class="question">
+              <span class="quest">Políticas de cancelamento</span>
+              <p class="arch">></p>
+            </div>
+          </div>
+          <!--
+          <div class="wrapper">
+            <div class="carousel owlCarousel2">
+              <div class="slide slide-1">
+                <img src="img/slide1.svg" alt="" />
+              </div>
+              <div class="slide slide-2">
+                <img src="img/slide2.svg" alt="" />
+              </div>
+              <div class="slide slide-3">
+                <img src="img/slide3.svg" alt="" />
+              </div>
+              <div class="slide slide-4">
+                <img src="img/slide4.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        --></div>
+
+        <div class="aside style">
+          <div class="flex space">
+            <span class="assinatura">Mensalidade</span>
+            <div class="flexSpace" id="number-contador">
+              <span class="cifrao">R$</span>
+              <h3 id="numberMensalidade">15.00</h3>
+            </div>
+          </div>
+          <div class="flex space">
+            <span class="assinatura">Kotas</span>
+            <div class="flex">
+              <div>
+                <h4 id="quantidade" style="font-weight: 400"></h4>
+              </div>
+              <div class="planBtn">
+                <buttom type="button" id="subtracao">-</buttom>
+              </div>
+              <div class="planBtn">
+                <buttom type="button" id="soma">+</buttom>
+              </div>
+            </div>
+          </div>
+          <div class="flex space">
+            <div class="flex">
+              <span class="assinatura">Caução</span>
+              <img class="info" src="img/iconInfo.svg" alt="" />
+            </div>
+            <div class="flexSpace" id="number-contador">
+              <span class="cifrao">R$</span>
+              <h3 id="numberCaucao">15.00</h3>
+            </div>
+          </div>
+          <div class="flex space" style="border: none" ;>
+            <h4>Total da inscrição</h4>
+            <h4>R$ 30,00</h4>
+          </div>
+          <div class="flex space" style="border: none" ;>
+            <div class="flexColumn">
+              <div class="planValue">R$ 30,00</div>
+              <div class="flexSpace">
+                <img src="img/ballBtn.svg" />
+                <img src="img/lineBtn.svg" />
+              </div>
+              <p>Assinatura</p>
+            </div>
+            <div class="flexColumn">
+              <div class="planValue">R$ 15,00</div>
+              <div class="flexSpace">
+                <img src="img/emptyBallbtn.svg" />
+                <img src="img/lineBtn.svg" />
+              </div>
+              <p>Segundo Mes</p>
+            </div>
+            <div class="flexColumn">
+              <div class="planValue" style="color: #26b36a">R$ 0,00</div>
+              <img src="img/emptyBallbtn.svg" alt="" />
+              <p>último mes</p>
+            </div>
+          </div>
+          <div>
+            <button class="btnParticipar">Participar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="flexFooter">
+        <span class="precoMes">R$15,90/mês</span>
+        <span class="allPrecos">Ver todos os valores</span>
+      </div>
+      <button type="button" class="lastBtn">Participar</button>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
